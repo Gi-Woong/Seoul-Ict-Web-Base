@@ -1,0 +1,89 @@
+/* 프리텐다드 폰트 불러오기 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
+
+* {
+  /* CSS 제작을 위해 필요한 주석 */
+  /* border-color: rgb(176, 26, 26); */
+  font-family: "pretendard";
+}
+
+.inline {
+  display: inline;
+}
+
+.zero-margin {
+  margin: 0 0 0 0;
+}
+
+.round-square {
+  border-radius: 30px;
+  padding: 3px;
+  text-align: center;
+  width: 20vw;
+  background-color: pink;
+}
+
+.mini-title {
+  margin: 10px 10px 10px 0px;
+}
+
+.header-search {
+  margin: 2cap;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.item {
+  width: 200px;
+  margin: 2px;
+  text-align: center;
+}
+
+.title {
+  display: inline;
+  font-size: 1.3em;
+  font-weight: 900;
+  color: aliceblue;
+  margin-right: 5px;
+}
+
+#header-h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#section-search {
+  padding: 5px 80px;
+}
+
+nav > button,
+nav > span > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  /* color: none; */
+  font-size: 20px;
+  font-weight: 400;
+}
+
+section > span {
+  float: right;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(249, 213, 55);
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+div > img {
+  width: 100%;
+  height: 180px;
+  align-items: center;
+}
